@@ -1,7 +1,10 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+<<<<<<< HEAD
 import random
+=======
+>>>>>>> Second commit
 from tkinter import *
 from tkinter.filedialog import askopenfilename
 
@@ -49,6 +52,7 @@ def find_centers(X, K):
         # Reevaluate centers
         mu = reevaluate_centers(old_mu, clusters)       # list of ndarrays
 
+<<<<<<< HEAD
     # representing on graph
 #    print(*mu, sep='\n')
 #    print(mu[0])
@@ -59,6 +63,9 @@ def find_centers(X, K):
 #    print(clusters[0][0])       # 1st point in cluster 1
 #    print(clusters[0][0][[0][0]])   # num of point (in row) + x and y (in column)
 #    print(clusters[0][0][[1][0]])
+=======
+    # Representing on graph
+>>>>>>> Second commit
     rgb = []
     for i in range(len(clusters)):
         rgb.append(np.random.rand(3, ))
